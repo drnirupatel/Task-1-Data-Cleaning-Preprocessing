@@ -1,2 +1,65 @@
 # Task-1-Data-Cleaning-Preprocessing
 Titanic Dataset Data Cleaning and Preprocessing using Python
+
+## Objective
+
+The objective of this project is to clean and preprocess the Titanic dataset for machine learning applications.
+
+## Dataset
+
+Titanic Dataset
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+## Steps Performed
+
+### Data Exploration
+
+* Examined dataset structure
+* Checked data types
+* Identified missing values
+
+### Missing Value Handling
+
+* Filled missing values in Age using median
+* Filled missing values in Embarked using mode
+* Dropped Cabin column due to excessive missing values
+
+### Encoding
+
+* Applied Label Encoding to Sex and Embarked columns
+
+### Feature Scaling
+
+* Standardized Age and Fare using StandardScaler
+
+### Outlier Detection
+
+* Visualized outliers using boxplots
+
+### Outlier Removal
+
+* Applied IQR method to remove outliers
+
+## Results
+
+Original Dataset Shape:
+
+* Rows: 891
+* Columns: 11
+
+Cleaned Dataset Shape:
+
+* Rows: 775
+* Columns: 11
+
+## Conclusion
+
+The dataset was successfully cleaned and transformed into a machine-learning-ready format. Missing values were handled, categorical variables were encoded, numerical features were standardized, and outliers were removed.
